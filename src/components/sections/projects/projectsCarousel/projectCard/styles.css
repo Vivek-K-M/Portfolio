@@ -1,0 +1,39 @@
+.card {
+  padding: 20px;
+  border: none !important;
+}
+
+.card-img {
+  height: auto;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.github-btn {
+  text-align: center;
+  width: auto;
+  height: 100%;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #0db3c7;
+  color: #fff;
+  outline: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.github-btn:hover {
+  color: #fff;
+}
+
+.card-title {
+  color: #040c2c;
+  padding: 20px 0 0;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.card-title:hover {
+  color: #0db3c7;
+  cursor: pointer;
+}

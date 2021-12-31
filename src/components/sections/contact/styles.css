@@ -1,0 +1,35 @@
+.contact {
+  background-color: #fafafa;
+}
+
+.icon {
+  font-size: 2.8rem;
+  margin: 10px 0;
+  color: #0db3c7;
+}
+
+.contact-box {
+  padding-top: 40px;
+}
+
+.connect-link {
+  font-size: 14px;
+  letter-spacing: 4px;
+  background-color: rgba(13,179,199,.12);
+  color: #0db3c7;
+  border: 2px dashed #0db3c7;
+  padding: 11px 28px;
+  margin: 10px 0;
+  display: table;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.connect-link:hover {
+  transform: scale(1.1);
+}
+
+.connect-link:hover {
+  color: #0db3c7;
+}

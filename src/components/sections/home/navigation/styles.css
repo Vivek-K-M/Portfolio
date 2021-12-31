@@ -1,0 +1,112 @@
+.navbox {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  transition: all .3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbox-active {
+  background-color: #fff;
+  box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
+}
+
+.icon-box {
+  width: 11vh;
+  height: auto;
+  clip-path: circle();
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: auto 0;
+  padding: 10px 0;
+}
+
+ul li .nav-link {
+  position: relative;
+  padding: 4px 0;
+}
+
+.nav-link::before {
+  opacity: .8;
+  content: '';
+  background: #fff;
+  width: 0;
+  height: 1.3px;
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  transition: .3s ease-in-out;
+}
+
+.nav-link-active::before {
+  background: #040c2c;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.navbox .navbar-ul a {
+  color: #fff;
+  margin: auto 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbox .navbar-ul-active a{
+  color: #040c2c;
+}
+
+.navbar-ul-active a:hover {
+  color: #040c2c;
+}
+
+/* hamurger responsive navbar styles */
+.hamburger-icon {
+  background: transparent;
+  border: none;
+  font-size: 2.2rem;
+  transition: .3s;
+  color: #0db3c7;
+}
+
+.ham-ul {
+  display: block;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 12px;
+  transition: all .3s;
+}
+
+.ham-ul li {
+  padding: 2px 0;
+}
+
+.ham-ul li a{
+  text-decoration: none;
+  color: #040c2c;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.ham-ul li a:hover {
+  color: #040c2c;
+}
+
+.backdrop-transition {
+  transition: 1s;
+}

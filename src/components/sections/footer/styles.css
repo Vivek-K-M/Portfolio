@@ -1,0 +1,25 @@
+.footer {
+  background-color: #0db3c7;
+  color: #fff;
+}
+
+.footer-icons-link {
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #fff;
+}
+
+.footer-icons {
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .icons-box {
+    margin: 8px 0;
+  }
+  .footer-text, .icons-box {
+    text-align: center;
+  }
+}

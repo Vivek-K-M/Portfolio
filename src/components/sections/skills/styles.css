@@ -1,0 +1,35 @@
+.skill-box {
+  padding-top: 50px;
+}
+
+.skill-icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #0db3c7;
+  cursor: pointer;
+  transition: .3s;
+  text-align: center;
+}
+
+.skill-icon-box:hover {
+  transform: scale(1.2);
+}
+
+.skill-wrap {
+  display: grid;
+  justify-content: center;
+}
+
+.skill-icon {
+  margin: 14px 0;
+  font-size: 50px;
+  color: #0db3c7;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #040c2c;
+  margin: 20px auto;
+}
