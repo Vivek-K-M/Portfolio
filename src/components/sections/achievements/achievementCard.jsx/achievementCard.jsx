@@ -1,9 +1,10 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import './styles.css';
 
 const AchievementCard = (props) => {
   return (
-    <div className="card-wrap">
+    <Col className="card-wrap">
       <a target={props.link === `#` ? null : '_blank'} rel='noreferrer' href={props.link}>
         <div className="card-box">
           {/* <div className="card-img-box"> */}
@@ -12,7 +13,7 @@ const AchievementCard = (props) => {
           <div className="card-description">{props.description}</div>
         </div>
       </a>
-    </div>
+    </Col>
     
   )
 };

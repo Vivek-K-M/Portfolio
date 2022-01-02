@@ -4,7 +4,8 @@
 
 .card-box {
   width: auto;
-  height: 290px;
+  min-height: 300px;
+  max-height: 340px;
   padding: 20px;
   transition: .3s;
   border-radius: 5px;

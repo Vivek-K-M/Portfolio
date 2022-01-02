@@ -21,11 +21,17 @@ const settings = {
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 1160,
+      breakpoint: 780,
       settings: {
         slidesToShow: 1,
       }
-    }
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
   ],
 };
 
