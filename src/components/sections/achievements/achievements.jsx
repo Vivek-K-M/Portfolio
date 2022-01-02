@@ -79,7 +79,7 @@ const Achievements = () => {
     <div className="achievements" id="achievements">
       <Container
         style={{
-          padding: '0 5% 8%',
+          padding: '2% 5% 8%',
         }}
       >
         <Row>

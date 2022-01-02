@@ -3,15 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.3",
-    "chart.js": "^2.9.4",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.3",
-    "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
     "react-rotating-text": "^1.4.1",
@@ -40,7 +37,7 @@
       "not dead",
       "not op_mini all"
     ],
-  "development": [
+    "development": [
       ">0.3%",
       "not ie 11",
       "not dead",
