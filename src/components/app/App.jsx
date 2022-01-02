@@ -8,17 +8,19 @@ import Home from '../sections/home/home';
 import Navigation from "../sections/home/navigation/navigation";
 import Projects from "../sections/projects/projects";
 import Skills from "../sections/skills/skills";
+import Achievements from '../sections/achievements/achievements';
 
 
 const App = () => {
   return (
-    <div className="app">
+    <div>
       <Navigation />
       <Home />
       <About />
       <Projects />
       <Experience />
       <Skills />
+      <Achievements />
       <Contact />
       <Footer />
     </div>

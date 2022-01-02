@@ -1,0 +1,31 @@
+.card-wrap {
+  margin: 30px;
+}
+
+.card-box {
+  width: auto;
+  height: 290px;
+  padding: 20px;
+  transition: .3s;
+  border-radius: 5px;
+  background-color: #fafafa;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.achievement-img {
+  box-shadow: none;
+  width: 80%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.card-description {
+  color: #040c2c;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+ul.slick-dots {
+  margin-top: 0;
+}

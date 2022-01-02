@@ -31,3 +31,7 @@
   padding: 12px 28px;
   border-radius: 3px;
 }
+
+ul.slick-dots {
+  margin: 0;
+}
