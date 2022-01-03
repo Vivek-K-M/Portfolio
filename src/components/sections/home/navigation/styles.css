@@ -1,6 +1,6 @@
 .navbox {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   z-index: 1000;
@@ -109,4 +109,8 @@ ul li .nav-link {
 
 .backdrop-transition {
   transition: 1s;
+}
+
+.offcanvas.offcanvas-start.show {
+  width: 320px;
 }
