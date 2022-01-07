@@ -2,10 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   position: relative;
   top: -1px;
-}
+} */
 
 * {
   outline: none;

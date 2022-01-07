@@ -27,7 +27,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const setNavbar = () => {
-      if(window.scrollY > 2) {
+      if(window.scrollY > 3) {
         setNavbarActive(true);
       }
       else {
